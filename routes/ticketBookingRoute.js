@@ -12,7 +12,7 @@ const app = express.Router();
 app.post("/book-ticket/:id", isAuthenticated, bookTicket);
 
 // /api/v1/ticket-booking//my-bookings
-app.get("//my-bookings", isAuthenticated, getUserTickets);
+app.get("/my-bookings", isAuthenticated, getUserTickets);
 
 // /api/v1/ticket-booking/cancel-ticket/:id
 app.delete("/cancel-ticket/:id", isAuthenticated, cancelTicket);
