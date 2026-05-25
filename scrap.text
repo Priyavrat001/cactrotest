@@ -1,0 +1,35 @@
+Question
+Start: 5/17/2026, 11:00:00 AM
+
+End: 5/17/2026, 1:00:00 PM
+
+Design and implement the backend APIs for an Event Booking System
+Support two types of users:
+
+Event Organizers
+Customers
+Event Organizers manage events, while Customers browse events and book tickets. API access must be controlled based on user roles.
+
+Implement background tasks using any job queue or async processing mechanism of your choice.
+
+Background Task 1: Booking Confirmation
+Triggered when a customer successfully books tickets
+
+Simulates sending a booking confirmation email
+
+For this assignment: A console log / print statement indicating the email action is sufficient
+
+Background Task 2: Event Update Notification
+Triggered when an event is updated
+
+Notifies all customers who have booked tickets for that event
+
+For this assignment: A console log / print statement indicating notification is sufficient
+
+Record one video showing the demo of what you’ve built. Use Loom or any other tool to record yourself and your computer screen. Minimum duration should be 2 minutes, maximum 5 minutes and the ideal length would be around 3-4 minutes. IMPORTANT NOTE: You have to show your face as well. Make sure to speak in English while showing the demo.
+
+Feel free to use AI tools. Document ALL your design decisions in the README file. Do spend some time initially to plan out how you will do it. Manage your time accordingly.
+
+Submit here: https://forms.gle/ER387znmXfN4MvzdA
+
+All the best. You got this!
